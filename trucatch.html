@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javascript">
+<!--
+function demo(){
+try{
+    undefinedfunction()
+    alert('function is exist')
+}
+catch(e){
+    document.write('An error has occurred: '+e.message+'<br>');
+}
+finally{
+	document.write('I will always execute');
+}
+}
+
+//-->
+</script>
+</head>
+<body>
+<p>Click the following to see the result:</p>
+<form>
+<input type="button" value="Click Me" onclick="demo();" />
+</form>
+</body>
+</html>
