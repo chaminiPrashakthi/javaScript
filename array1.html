@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>JavaScript Array Properties</title>
+</head>
+<body>
+<script type="text/javascript">
+function fruits(name){
+	this.name = name;
+}
+var array1 = ["apple","banana","mango","orange"];
+document.write("Array lenght = "+array1.lenght);
+document.write("Array elements ");
+document.write("<br>")
+document.write("array1[0] = "+array1[0]+ "<br>");
+document.write("array1[1] = "+array1[1]+ "<br>");
+
+var fruitList = new fruits("mango");
+fruits.prototype.numberOfSeeds = null;
+fruitList.numberOfSeeds = 1;
+
+document.write("friut name is "+fruitList.name+ "<br>");
+document.write("Number of seeds in a "+fruitList.name+ " is "+fruitList.numberOfSeeds);
+</script>
+</body>
+</html>
