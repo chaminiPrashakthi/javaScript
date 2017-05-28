@@ -1,0 +1,17 @@
+<html>
+<title> js function </title>
+<body>
+<script language= "javascript" type="text/javascript">
+var func= new Function("a","b","return a+b;");
+
+function last(){
+	var result= func("chamini"," prashakthi");
+	document.write(result);
+}
+
+</script>
+<form>
+<input type="button" onclick= "last()" value="click me"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+<title> js function </title>
+<body>
+<script language= "javascript" type= "text/javascript">
+<!--
+function loop(a,b){
+	function squre(x){
+		return x*x;
+	}
+	return Math.sqrt(squre(a)+squre(b));
+}
+ function last(){
+	var s;
+	s= loop(1,2);
+	document.write(s)
+
+ }
+//->
+</script>
+<form>
+<input type="button" onclick= "last()" value="click me"/>
+</form>
+</body>
+</html>
