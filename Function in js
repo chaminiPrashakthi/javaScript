@@ -1,0 +1,15 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+<!--
+function one() {
+alert("Hey I'm chamini")
+}
+//-->
+</script>
+</head>
+<body>
+Click here for see my name
+<input type="button" onclick="one()" value="one" />
+</body>
+</html
